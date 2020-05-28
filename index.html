@@ -103,5 +103,131 @@
             facilitation of musical expression.</p>
         </div>
         
+        <div id="implementation">
+          <h2>Implementation</h2>
+          <p>The VIMEs discussed in this paper are designed for roomscale
+            virtual experiences using the Oculus Rift S and the
+            HTC Vive platforms. While some of the designs rely on
+            physical movement, others exploit virtual navigation within
+            environments that extend beyond the confines of the tracked
+            space. Although inside-out tracking systems, such as the
+            one used in the Oculus Rift S, that rely on plane detection
+            are suitable for arbitrarily defined play areas, outside-in
+            tracking, which the HTC Vive employs, offers the advantage
+            of constant controller tracking even when the controllers are
+            outside of the user's field of view. The choice of hardware
+            platform for each design was accordingly informed by the
+            tracking capabilities and hardware controller layouts. All
+            four VIMEs were designed using Unity 3D. Google's Resonance
+            Audio API was used for the binaural spatialization
+            of the sounds.</p>
+        </div>
+        
+        <div id="casestudies">
+            <h2>Case Studies</h2>
+            <p>To better understand the affordances of VR for musical interaction
+            design, we developed four VIMEs as case studies.
+            While each of the VIMEs explored a different facet of interaction
+            design for VR, they all shared the following design
+            guidelines:</p>
+            
+            <ul>
+                <li>The interface should only be possible to implement in
+                    VR, exploiting interactive, physical, acoustical, and
+                    visual affordances of VR.</li>
+                <li>The interface can be informed by existing musical traditions,
+                    mental models and learned sensorimotor behavior
+                    or deviate from these entirely in the form of a
+                    novel interface.</li>
+                <li>The scale of the interface can range from that of an
+                    instrument to that of an arbitrarily sized environment
+                    conceived as a musical system.</li>
+            </ul>
+        </div>
+        
+        <div id="ballpit">
+            <h3>Ball Pit</h3>
+            <p>The Ball Pit is designed for the HTC Vive as a musical
+            interface at the scale of an environment. As seen in the topleft
+            panel in Fig. 1, the user is situated in an enclosed space with tiled walls, where they can move around physically in room scale. Using the left-hand controller the user can
+            spawn an arbitrary number of balls in three different sizes. Once thrown into the room, the balls move without being affected by gravity. The user can grab the balls in mid-air
+            or strike it with a virtual baton mapped to the right-hand
+            controller. They can also remove the most recent ball or
+            destroy all balls at once. Each tile displays a different shade of green and is tuned
+            to a unique pitch from the chromatic scale. When a wall
+            tile is struck by a ball, it lights up in red and emits a sound
+            pulsaret reminiscent of the bouncing of a ping-pong ball.
+            While the pitch of the sound is based on the tuning of a
+            tile, its octave is determined by the size of the ball (i.e.
+            smaller balls produce higher-octave sounds).</p>
+        </div>
+        
+        <div id="laserharp">
+            <h3>Laser Harp</h3>
+            <p>Designed for the HTC Vive, the Laser Harp re-imagines the
+            traditional string instrument as a room-scale interface that
+            extends between the performer and the virtual environment.
+            Eight strings extend between the user's left hand and a
+            bridge affixed to the ceiling as seen in the top-right panel in
+            Fig. 1. A virtual bow mapped to the right-hand controller
+            allows the user to strum and bow the strings.
+            The sounds are synthesized using the Karplus-Strong algorithm
+            to achieve plucked and sustained string sounds with
+            velocity-sensitivity. The touchpad on the left-hand controller
+            can be used to scroll through four different musical
+            scales, namely major, minor, chromatic and whole-tone
+            scales. Moving the left hand, the user can stretch the strings
+            to tune them. The rotation of the left hand controls the cutoff
+            frequency of a low pass filter, allowing the user to alter
+            the timbre of instrument.</p>
+        </div>
+        
+        <div id="marbells">
+            <h3>Marbells</h3>
+            <p>Marbells is designed for the Oculus Rift S in the scale of an
+            environment wherein the user can design a musical causality
+            system by placing resonant blocks in the pathway of marbles
+            that fall off of four pipes placed in the corners of a virtual
+            room as seen in the bottom left panel in Fig. 1. A belllike
+            sound is heard when a marble comes in contact with
+            a block. The marbles adhere to classical physics as they
+            bounce off of the blocks and disappear once they reach the
+
+            floor. The virtual environment extends beyond room scale
+            to allow for elaborate causality systems; while the user can
+            move physically within the confines of the play area, they
+            can use the thumbsticks on the Touch Controller to navigate
+            beyond the tracked space.
+            The user can spawn an arbitrary number of blocks from
+            a selection of four different types, each with different timbral
+            characteristics. This is achieved by grabbing the blocks
+            from the center of the room, which re-spawn as their taken
+            out of their corresponding pedestal. The blocks are not affected
+            by physics and suspend in mid air when released.
+            The user can point to pipes to change the clock division
+            of the rate at which they emit balls and point to blocks to
+            change their tuning on a pentatonic scale, creating diverse
+            polyphonic and polyrhythmic structures.</p>
+        </div>
+        
+        <div id="orbit">
+            <h3>ORBit</h3>
+            <p>Designed for the Oculus Rift S, the ORBit encapsulates
+            the performer in a cylindrical structure, which serves as a
+            gallery of virtual musical objects as seen in the bottomright
+            block in Fig. 1. Among these objects are 4 orbs that
+            generate sounds and 2 auras that function as audio effects.
+            The user can grab these objects and move them anywhere
+            within their reach. Neither gravity nor ballistic forces affect
+            the objects, which remain suspended in air when released.
+            Once removed from their compartments, an orb emits a
+            droning synthesized sound unique to it. The orb's position
+            on the vertical axis controls the pitch of the drone that
+            is spatially affixed to it. The two aura objects, offering
+            low-pass filtering and distortion effects, adhere to a similar
+            interaction model. An aura's proximity to an orb controls
+            the strength of its effect on the orb's sound.</p>
+        </div>
+        
     </body>
 </html>
