@@ -1,36 +1,39 @@
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Helvetica Neue';
+}
+
 h1 {
-    font-family: Tahoma;
-    color: darkorchid;
+    color: #ff196a;
     margin-bottom: 0px;
     margin-left: 10px;
 }
 
 h2 {
-    font-family: Tahoma;
-    color: darkorchid;
+    color: #ff196a;
     margin-bottom: 0px;
     margin-left: 10px;
 }
 
 h3 {
-    font-family: Tahoma;
-    color: darkorchid;
+    color: #ff196a;
     margin-bottom: 0px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 
 h4 {
-    font-family: Tahoma;
-    font-weight: lighter;
-    color: darkorchid;
+    font-weight: 200;
+    color: #ff196a;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 
 p{
-    font-family: Tahoma;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 300;
     line-height: normal;
     color: black;
     min-width: 200px;
@@ -39,31 +42,30 @@ p{
 }
 
 ul {
-    font-family: Tahoma;
     color: black;
 }
 
 ol {
-    font-family: Tahoma;
     color: black;
 }
 
 li {
+    font-size: 18px;
+    font-weight: 300;
     padding-left: 10px;
     max-width: 500px;
 }
 
 .authors {
-    font-family: Tahoma;
     font-weight: normal;
-    color: darkorchid;
+    color: #ff196a;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 10px;
 }
 
 .refnum {
-    
+
     float: left;
 }
 
