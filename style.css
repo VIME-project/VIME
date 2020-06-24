@@ -1,6 +1,6 @@
 body{
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
   font-family: 'Helvetica Neue';
 }
 
@@ -19,7 +19,6 @@ h2 {
 h3 {
     color: #ff196a;
     margin-bottom: 0px;
-    margin-top: 5px;
     margin-left: 10px;
 }
 
@@ -60,7 +59,7 @@ li {
     font-weight: normal;
     color: #ff196a;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 
