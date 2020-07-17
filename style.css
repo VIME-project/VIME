@@ -52,6 +52,7 @@ li {
     font-size: 18px;
     font-weight: 300;
     padding-left: 10px;
+    max-width: 750px;
 }
 
 .authors {
