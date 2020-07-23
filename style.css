@@ -1,6 +1,8 @@
 body{
-  margin-left: 150px;
-  margin-right: 150px;
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
+  width: 70%;
+  margin: auto;
   font-family: 'Helvetica Neue';
 }
 
@@ -37,7 +39,7 @@ p{
     color: black;
     min-width: 200px;
     max-width: 1000px;
-    margin: 0px 10px;
+    margin: 0px 10px 12px;
 }
 
 ul {
@@ -64,7 +66,6 @@ li {
 }
 
 .refnum {
-
     float: left;
 }
 
@@ -79,16 +80,10 @@ li {
     padding-bottom: 10px;
 }
 
-/*for image displays*/
-.column {
-  float: left;
-  width: 45%;
-  padding-top: 20px;
-  padding-bottom: 10px;
+#images{
+  text-align: center;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+#image {
+
 }
